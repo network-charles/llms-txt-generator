@@ -6,7 +6,7 @@ The `llms.txt` generator for Mintlify documentation sites reads the `docs.json` 
 - A per-navigation `llms.txt` with 300 characters page descriptions under the `## Docs` section
 - An `## OpenAPI Specs` or `## AsyncAPI Specs` section for API reference endpoint pages or multiple API files
 - If your docs support versioning, it generates individual `llms.txt` files for each version
-- `llms.tx` file hashes are available in [llms-txt-cache.json](../llms-txt-cache.json) and tracks changes
+- `llms.txt` file hashes are available in [llms-txt-cache.json](../llms-txt-cache.json) and tracks changes
 
 When you open a PR, you can use the [GitHub actions](.github/workflows/llms-txt-gen-check.yml) to verify if llms.txt files are out of date.
 
