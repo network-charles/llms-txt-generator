@@ -1,0 +1,9 @@
+[project]
+name = "llms-txt-generator"
+version = "0.1.0"
+description = "llms.txt generator for Mintlify documentation sites"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyyaml>=6.0.3",
+]
