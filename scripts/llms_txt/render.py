@@ -153,6 +153,8 @@ def generate_root(
 
         > Short description of the documentation site.
 
+        ## Docs
+
         - [Documentation](https://docs.example.com/documentation/llms.txt)
         - [Tutorials](https://docs.example.com/tutorials/llms.txt)
         - [API reference](https://docs.example.com/api-reference/llms.txt)
@@ -163,6 +165,7 @@ def generate_root(
     lines = [f"# {site_name}", ""]
     if intro:
         lines += [format_intro(intro), ""]
+    lines += ["## Docs", ""]
     for display_name, folder in navigation:
         url = f"{base_url.rstrip('/')}/{folder}/llms.txt"
         lines.append(f"- [{display_name}]({url})")

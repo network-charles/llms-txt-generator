@@ -1,8 +1,10 @@
 name: llms.txt check
-on:
-  pull_request:
-    branches:
-      - main
+# Uncomment this block in a real project to enable the workflow
+# on:
+#   pull_request:
+#     branches:
+#       - main
+
 jobs:
   check-llms-txt:
     runs-on: ubuntu-latest
